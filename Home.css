@@ -1,0 +1,32 @@
+body {
+    background-image: url(https://jgmotor.co.id/wp-content/uploads/2019/12/shutterstock_500908810-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-shadow: 3px 2px 1px black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header h1{
+    color: wheat;
+    margin: 230px 0px 0px 550px;
+}
+
+#cari {
+    color: whitesmoke;
+    margin: 30px 0px 0px 220px;
+}
+
+.hehe{
+    margin: 10px 0px 0px 390px;
+    width: 55px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(175, 175, 175);
+    font-weight: bold;
+    font-size: small;
+}
+.hehe a {
+    color: rgb(0, 15, 10);
+    text-decoration: none;
+}

@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/896/020/non_2x/bokeh-of-the-road-at-night-free-photo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 12vh;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    background-color: rgb(8, 0, 46);
+}
+
+header h1{
+    color: white;
+    margin: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 10px;
+}
+
+nav ul li{
+    margin-left: 15px;
+    padding: 20px;
+    display: inline-block;
+    color: white;
+}
+
+#first {
+    padding: 160px 20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.945);
+    text-shadow: 3px 2px 1px black;
+}
+img.helm{
+    border-radius: 50px;
+    border-style: groove;
+}
+.one {
+    margin-left: 60px;
+}
+.one h1 {
+    margin-bottom: 40px;
+}
+.one h4 span{
+    color: rgba(255, 0, 0, 0.849);
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#second {
+    color: rgba(255, 255, 255, 0.945);
+    padding: 120px 50px 80px 60px;
+    display: flex;
+    align-items: center;  
+    text-shadow: 3px 2px 1px black;
+}
+.two {
+    margin-left: 60px;
+    margin-right: 70px;
+}
+.two h1 {
+    margin-bottom: 40px;
+}
+img.harga{
+    border-radius: 50px;
+    border-style:groove;
+    border-color: white;
+}
+.button1{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(153, 134, 134);
+    font-weight: bold;
+    font-size: medium;
+    
+}
+.button1 a {
+    color: rgb(0, 15, 10);
+    text-decoration: none;
+}
+
+#third {
+    padding: 180px 60px 185px 60px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: white;
+    text-shadow: 3px 2px 1px black;
+}
+img.jenis{
+    border-radius: 50px;
+    border-style:groove;
+    border-color: white;
+}
+.three {
+    margin-left: 60px;
+}
+.three h1 {
+    margin-bottom: 40px;
+}
+
+.button2{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(153, 134, 134);
+    font-weight: bold;
+    font-size: medium;
+}
+.button2 a {
+    color: rgb(0, 15, 10);
+    text-decoration: none;
+}
+
+#contact{
+    text-align: center;
+    padding: 40px;
+    color: white;
+    text-shadow: 3px 2px 1px black;
+}
+
+.three h2{
+    size: 40px;
+    padding-bottom: 20px;
+}
+img.profil {
+    border-style: groove;
+    border-radius: 20px;
+}
+
+.ig{
+    width: 80px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(199, 0, 0);
+    font-weight: bold;
+    border-color: black;
+}
+.ig a {
+    transition: all .3s ease;
+    color: rgb(251, 255, 0);
+    text-decoration: none;
+}
+
+.wa{
+    width: 80px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(20, 240, 12);
+    font-weight: bold;
+    border-color: black;
+}
+.wa a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer h3{
+    text-align: end;
+    background-color: rgb(8, 0, 46);
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    text-decoration: overline;
+
+}
